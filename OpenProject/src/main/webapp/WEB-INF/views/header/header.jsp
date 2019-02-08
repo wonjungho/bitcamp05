@@ -26,7 +26,7 @@ color:black;
 	</h1>
 	<hr>
 	<ul>
-		<li><a href="member/regform.jsp">회원가입</a></li>
+		<li><a href="member/reg">회원가입</a></li>
 		<li><a href="#">로그인</a></li>
 		<li><a href="member/list">회원리스트</a></li>
 		<li><a href="#">방명록</a></li>
