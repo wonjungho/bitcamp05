@@ -8,32 +8,10 @@
 <head>
 <link rel="stylesheet" href="css/nav.css">
 <title>Home</title>
-<style type="text/css">
-li{
-list-style:none;
-}
-ul{
-display:flex;
-flex-direction:row;
-justify-content:space-around;
-}
-a{
-text-decoration:none;
-color:black;
-}
-</style>
 </head>
 <body>
-	<h1>
-		Open project
-	</h1>
-	<hr>
-	<ul>
-		<li><a href="member/reg">회원가입</a></li>
-		<li><a href="#">로그인</a></li>
-		<li><a href="member/list">회원리스트</a></li>
-		<li><a href="#">방명록</a></li>
-	</ul>
-	<hr>
+<div class="header">
+<jsp:include page="header/header.jsp"/>
+</div>
 </body>
 </html>

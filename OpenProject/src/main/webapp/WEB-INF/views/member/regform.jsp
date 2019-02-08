@@ -7,9 +7,12 @@
 <title>회원가입</title>
 </head>
 <body>
-	<h1>회원가입</h1>
+<div class="header">
+<jsp:include page="../header/header.jsp"/>
+</div>
+	<h2>회원가입</h2>
 	<hr>
-	<form action="insertMember">
+	<form action="insertMember" method="post" enctype="multipart/form-data">
 		<table>
 			<tr>
 				<td>아이디(이메일)</td>

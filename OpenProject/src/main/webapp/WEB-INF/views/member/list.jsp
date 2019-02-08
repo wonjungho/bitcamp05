@@ -6,34 +6,12 @@
 <head>
 <meta charset="UTF-8">
 <title>회원리스트</title>
-<style>
-li{
-list-style:none;
-}
-ul{
-display:flex;
-flex-direction:row;
-justify-content:space-around;
-}
-a{
-text-decoration:none;
-color:black;
-}
-</style>
 </head>
 <body>
-	<h1>
-		Open project
-	</h1>
-	<hr>
-	<ul>
-		<li><a href="#">회원가입</a></li>
-		<li><a href="#">로그인</a></li>
-		<li><a href="member/list">회원리스트</a></li>
-		<li><a href="#">방명록</a></li>
-	</ul>
-	<hr>
-<h1>회원리스트</h1>
+<div class="header">
+<jsp:include page="../header/header.jsp"/>
+</div>
+<h2>회원리스트</h2>
 <c:forEach items="${members}" var="member">
 <h3>
 ${member.id} | ${member.name} | ${member.password} | ${member.email} | 
